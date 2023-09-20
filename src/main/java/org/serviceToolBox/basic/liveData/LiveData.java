@@ -7,6 +7,8 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.serviceToolBox.utilitites.BrowserUtils;
 import org.testng.annotations.Test;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -15,7 +17,7 @@ public class LiveData {
     WindowsDriver driver;
 
     @Test
-    public void LiveData() throws MalformedURLException {
+    public void LiveData() throws MalformedURLException, FileNotFoundException {
 
 
         try {
@@ -41,6 +43,7 @@ public class LiveData {
 
         WebElement liveData = driver.findElement(By.name("LIVE DATA"));
         liveData.click();
+
 
 
 

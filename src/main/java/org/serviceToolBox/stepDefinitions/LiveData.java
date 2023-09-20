@@ -29,7 +29,6 @@ public class LiveData {
             caps.setCapability("app", "C:\\TestCompleteFazua\\abc.exe");
             driver = new WindowsDriver(new URL("http://127.0.0.1:4723/"), caps);
         } catch (Exception e) {
-
             DesiredCapabilities desktopCapabilities = new DesiredCapabilities();
             desktopCapabilities.setCapability("app", "Root");
             driver = new WindowsDriver(new URL("http://127.0.0.1:4723/"), desktopCapabilities);

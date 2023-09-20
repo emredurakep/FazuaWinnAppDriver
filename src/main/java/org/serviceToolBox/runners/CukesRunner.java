@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
         features = "src/main/resources/features",     // This may be wrong check it
         glue = "org/serviceToolBox/stepDefinitions",
         dryRun = false,
-        tags = "@LiveDataCheck",
+        tags = "@Regression",
         publish = false
 
 )

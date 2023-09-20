@@ -1,5 +1,7 @@
 Feature: Test With No Bug (Special Test ToolBox 2.19 - RC4)
 
+
+  @Regression
   Scenario: bundle 007 no bug G4-  basic version of ST
 
     Given Superuser RC1 is connected to the system

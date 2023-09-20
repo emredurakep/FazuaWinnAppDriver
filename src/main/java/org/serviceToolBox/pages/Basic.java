@@ -7,12 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.serviceToolBox.utilitites.Driver;
 
 public class Basic {
-
     // Page Object Model
         public Basic() {
                 PageFactory.initElements(Driver.getDriver(), this);
         }
-
 
         @FindBy (name = "BASIC")
         public WebElement basic;

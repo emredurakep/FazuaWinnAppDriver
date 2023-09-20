@@ -34,7 +34,6 @@ public class ConfigurationData2 {
         OEM.click();
         BrowserUtils.sleep(2);
 
-
         WebElement configuration = driver.findElement(By.name("CONFIGURATION"));
         configuration.click();
 
